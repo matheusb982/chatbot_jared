@@ -1,0 +1,12 @@
+/*
+ *= require assets/admin1/css/admin1.css
+ *= require assets/globals/css/elements.css
+ *= require assets/globals/css/plugins.css
+ *= require_self
+ */
+
+ .image-icon-uol {
+   width: 90px;
+   height: 70px;
+   padding-left: 10px;
+ }

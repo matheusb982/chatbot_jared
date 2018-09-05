@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>PLEASURE - Blank Page</title>
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+        <!-- END SHORTCUT AND TOUCH ICONS -->
+    <%= stylesheet_link_tag    'welcome', media: 'all' %>
+    <%= javascript_include_tag 'welcome' %>
+
+
+</head>
+
+<body>
+
+    <style>
+        .sample-bg-image29:before {
+            background-image: url("<%= @image_news%> ");
+        }
+    </style>
+
+
+
+    <div class="content">
+
+
+
+        <div class="display-animation">
+
+            <div class="row image-row">
+
+                <div class="col-md-5">
+
+                    <div class="row image-row">
+                        <div class="col-sm-12">
+
+                            <div class="card tile card-green card-weather bg-image sample-bg-image15 material-animate">
+                                <div class="card-heading">
+                                    <div class="card-action">
+                                    </div>
+                                    <!--.card-action-->
+                                </div>
+                                <!--.card-heading-->
+                                <div class="card-body">
+                                    <div class="forecast-container">
+                                        <span class="temparature"><%= @one %>
+                                            <i class="wi wi-celsius"></i>
+                                        </span>
+                                        <span class="place">Fortaleza, Brasil</span>
+                                        <span class="forecast"><%= @one_title %></span>
+                                    </div>
+                                </div>
+                                <!--.card-body-->
+                                <div class="card-footer">
+                                    <div class="row">
+                                        <div class="col-xs-3 col-sm-2 animate-item">
+                                            <ul>
+                                                <li><%= @one_day %></li>
+                                                <li>
+                                                    <i class="wi wi-day-sleet-storm"></i>
+                                                </li>
+                                                <li><%= @one %>
+                                                    <i class="wi wi-celsius"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!--.col-->
+                                        <div class="col-xs-3 col-sm-2 animate-item">
+                                            <ul>
+                                                <li><%= @two_day %></li>
+                                                <li>
+                                                    <i class="wi wi-day-sunny-overcast"></i>
+                                                </li>
+                                                <li><%= @two %>
+                                                    <i class="wi wi-celsius"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!--.col-->
+                                        <div class="col-xs-3 col-sm-2 animate-item">
+                                            <ul>
+                                                <li><%= @three_day %></li>
+                                                <li>
+                                                    <i class="wi wi-rain"></i>
+                                                </li>
+                                                <li><%= @three %>
+                                                    <i class="wi wi-celsius"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!--.col-->
+                                        <div class="col-xs-3 col-sm-2 animate-item">
+                                            <ul>
+                                                <li><%= @four_day %></li>
+                                                <li>
+                                                    <i class="wi wi-day-rain"></i>
+                                                </li>
+                                                <li><%= @four %>
+                                                    <i class="wi wi-celsius"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!--.col-->
+                                        <div class="col-sm-2 hidden-xs animate-item">
+                                            <ul>
+                                                <li><%= @five_day %></li>
+                                                <li>
+                                                    <i class="wi wi-showers"></i>
+                                                </li>
+                                                <li><%= @five %>
+                                                    <i class="wi wi-celsius"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!--.col-->
+                                        <div class="col-sm-2 hidden-xs animate-item">
+                                            <ul>
+                                                <li><%= @sex_day %></li>
+                                                <li>
+                                                    <i class="wi wi-storm-showers"></i>
+                                                </li>
+                                                <li><%= @sex %>
+                                                    <i class="wi wi-celsius"></i>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!--.col-->
+                                    </div>
+                                    <!--.row-->
+                                </div>
+                                <!--.card-footer-->
+                            </div>
+                            <!--.card-->
+
+                        </div>
+                        <!--.col-->
+                    </div>
+                    <!--.row-->
+
+
+
+                </div>
+                <!--.col-->
+                <div class="col-md-4">
+                    <div class="card tile card-news-more material-animate">
+                        <div class="card-heading bg-image bg-opaque5 sample-bg-image29">
+                            <div class="heading-content">
+                                <span class="badge">NOTÍCIAS</span>
+                                <span class="headline"><%= @title_news %></span>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--.card-->
+                </div>
+                <!--.col-->
+
+                <div class="col-md-3">
+
+
+
+                    <div class="row image-row">
+                        <div class="col-md-12">
+                            <div class="card tile card-white card-stocks">
+                                <div class="card-heading">
+                                    <div class="card-action">
+                                        <!-- <a href="javascript:;" data-toggle="fake-reload"></a> -->
+                                    </div>
+                                    <!--.card-action-->
+                                    <span class="name">Cotação</span>
+                                    <span class="price">
+                                        <!-- <i class="ion-arrow-up-b"></i> 0.30%</span> -->
+                                    <div class="chart chart-stocks"></div>
+                                </div>
+                                <!--.card-heading-->
+                                <div class="card-body">
+                                    <ul>
+                                        <li class="animate-item btn-ripple">
+                                            <span class="name">Dólar</span>
+                                            <span class="price text-green">
+                                                <!-- <i class="ion-arrow-up-b"></i>  -->
+                                                $<%= @dolar %></span>
+                                        </li>
+                                        <li class="animate-item btn-ripple">
+                                            <span class="name">Euro</span>
+                                            <span class="price text-green">
+                                                <!-- <i class="ion-arrow-down-b"></i>  -->
+                                                $<%= @euro %></span>
+                                        </li>
+                                        <li class="animate-item btn-ripple">
+                                            <span class="name">Peso Argentino</span>
+                                            <span class="price text-green">
+                                                <!-- <i class="ion-arrow-up-b"></i>  -->
+                                                $<%= @peso %></span>
+                                        </li>
+                                        <li class="animate-item btn-ripple">
+                                            <span class="name">Libra Esterlina</span>
+                                            <span class="price text-green">
+                                                <!-- <i class="ion-arrow-down-b"></i>  -->
+                                                $<%= @libra %></span>
+                                        </li>
+                                        <li class="animate-item btn-ripple">
+                                            <span class="name">Bitcoin</span>
+                                            <span class="price text-green">
+                                                <!-- <i class="ion-arrow-up-b"></i>  -->
+                                                $<%= @bitcoin %></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!--.card-body-->
+                            </div>
+                            <!--.card-->
+                        </div>
+                        <!--.col-->
+
+
+
+                    </div>
+                    <!--.row-->
+
+                </div>
+                <!--.col-->
+
+            </div>
+            <!--.row-->
+
+        </div>
+        <!--.display-animation-->
+
+
+    </div>
+    <!--.content-->
+
+
+    <!-- BEGIN INITIALIZATION-->
+    <script>
+        $(document).ready(function () {
+            Pleasure.init();
+            Layout.init();
+        });
+    </script>
+    <!-- END INITIALIZATION-->
+
+
+
+</body>
+
+</html>
